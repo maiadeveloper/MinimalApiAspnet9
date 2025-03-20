@@ -1,0 +1,94 @@
+[
+  {
+    "ContainingType": "IperonprevAPI.EndPoints.NoticiaEndPoint\u002B\u003C\u003Ec",
+    "Method": "\u003CMapNoticia\u003Eb__0_1",
+    "RelativePath": "noticias",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "IperonprevAPI.EndPoints.NoticiaEndPoint\u002B\u003C\u003Ec",
+    "Method": "\u003CMapNoticia\u003Eb__0_0",
+    "RelativePath": "noticias/{id}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "IperonprevAPI.EndPoints.NoticiaEndPoint\u002B\u003C\u003Ec",
+    "Method": "\u003CMapNoticia\u003Eb__0_2",
+    "RelativePath": "noticias/getTopDetaque",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "IperonprevAPI.EndPoints.SistemaEndPoint\u002B\u003C\u003Ec",
+    "Method": "\u003CMapSistema\u003Eb__0_1",
+    "RelativePath": "sistemas",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "IperonprevAPI.EndPoints.SistemaEndPoint\u002B\u003C\u003Ec",
+    "Method": "\u003CMapSistema\u003Eb__0_0",
+    "RelativePath": "sistemas/{id}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
